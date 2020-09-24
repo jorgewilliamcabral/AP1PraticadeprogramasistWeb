@@ -1,0 +1,98 @@
+<html>
+<head>
+    <meta charset="utf-8">
+
+<title>Minha Pagina</title>
+<style>
+.mylabel {
+                  font-size: 12px;
+                  color: blue;
+        }
+
+#menu ul {
+                  padding:0px;
+                  margin:0px;
+                  background-color:#EDEDED;
+                  list-style:none;
+}
+#menu ul li { display: inline; }
+
+#menu ul li a {
+    padding: 2px 10px;
+    display: inline-block;
+
+    /* visual do link */
+    background-color:#EDEDED;
+    color: #333;
+    text-decoration: none;
+    border-bottom:3px solid #EDEDED;
+}
+body {
+        background-image: url("img/fundo1.jpg"); 
+        background-repeat: no-repeat;
+        background-size: 100%;
+	background-position: center center;
+ }
+
+.mybigtxt {
+           fotn-size: 42px;
+           margin-top: 20%;
+           margin-left: 20%;
+           color: #fff;     
+}
+p {
+           fotn-size: 12px;
+           margin-left: 20%;
+           color: #fff;       
+}
+.mybtn {
+           margin-left: 20%;
+           border-radius:40%;
+           background-color: #fff;
+}
+label { 
+	color: #fff;
+      }
+	
+</style>
+</head>
+
+<body>
+        <nav id="menu">
+            <ul>
+               <li><a href="principal.html">Home</a></li>
+               <li><a href="#">Produtos</a></li>
+               <li><a href="aboutme.html">About Me</a></li>
+               <li><a href="#">Links</a></li>
+               <li><a href="contato.html">Contato</a></li>
+            </ul>
+          </nav>
+
+
+         <p class="mybigtxt"> CONTATO</p>
+         <form>
+		<label>nome:
+		<input type="text" name="nome">
+                </label><br>
+	
+		<label>sobrenome:
+		<input type="text" name="sobre">
+		</label><br>
+
+		<label>email:
+		<input type="text" name="email">
+		</label><br>
+
+		<label>mensagem:
+		<textarea></textarea>
+		</label><br>
+
+
+	 </form>            
+         <input type="button" class="mybtn" value="Enviar">
+ 
+
+     
+
+</body>
+</html>
